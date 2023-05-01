@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CustomAurthController;
 
 
 /*
@@ -20,4 +21,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[HomeController::class,'index']);
-
+Route::get('/login',[CustomAurthController::class,'login']);
+Route::get('/registration',[CustomAurthController::class,'registration']);
+Route::post('/register-user',[CustomAurthController::class,'registerUser'])->name('register-user');
+Route::post('/login-user',[CustomAurthController::class,'loginuser'])->name('login-user');
