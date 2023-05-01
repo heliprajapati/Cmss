@@ -35,7 +35,7 @@
       </div> --}}
       <!-- end loader -->
       <!-- header -->
-      @include('header')
+      @include('Landing/header')
       <!-- end header -->
       <section class="slider_section">
          <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
@@ -100,7 +100,7 @@
       
       <!-- end Contact -->
       <!-- footer -->
-    @include('footer');
+    @include('Landing/footer');
       <!-- end footer -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>

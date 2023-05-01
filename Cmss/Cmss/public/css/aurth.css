@@ -1,0 +1,97 @@
+ body{
+  background-image:url("/storage/raiseup.jpg");
+  height: 100hv;
+  background-size: cover;
+  background-position: center;
+ }
+ h4{
+  font-family: "Robot",sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  color: #23e329;
+ }
+ hr{
+  padding: 50px;
+  display: none;
+ }
+
+ .container{
+  width: 400px;
+  padding: 20% 0 0;
+  margin: auto;
+  background-repeat: no-repeat;
+
+ }
+
+.main{
+  border-radius:10px ;
+  position: relative;
+  z-index: 1;
+  background: #dcefd6;
+  opacity: 0.8;
+  max-width: 360px;
+  min-height: 400px;
+  margin: -32px auto 100px;
+  text-align: center;
+  overflow: hidden;
+}
+.input input{
+  font-family: "Robot", san-serif;
+  outline: 1;
+  border-color: #d1eed2;
+  width: 90%;
+  border-style: 1px;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding:12px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.input label{
+  font-size: 15px;
+  
+  font-family: "Robot", san-serif;
+}
+.submit button{
+  font-family: "Robot", san-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 90%;
+  border-radius: 10px;
+  background: #4CAF50;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.submit button:hover,.submit button:active{
+  background: #43A047;
+}
+.alert{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(241, 241, 85);
+  color: #7ee081;
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Robot", san-serif;
+
+}
+.message {
+  margin: 15px 0 0;
+  color: rgb(54, 233, 96);
+  font-size: 20px;
+  margin-top: 20px;
+} 
+.input span{
+  color: #f62929e3;
+  font-family: "Robot", san-serif;
+  font-size: 1em;
+  margin-top: 20px;
+}
+.message  a{
+  text-decoration: none;
+  color: rgb(90, 165, 240);
+  margin-left: 5px;
+  margin-top: 10px;
+}
