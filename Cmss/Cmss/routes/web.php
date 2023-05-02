@@ -25,3 +25,7 @@ Route::get('/login',[CustomAurthController::class,'login']);
 Route::get('/registration',[CustomAurthController::class,'registration']);
 Route::post('/register-user',[CustomAurthController::class,'registerUser'])->name('register-user');
 Route::post('/login-user',[CustomAurthController::class,'loginuser'])->name('login-user');
+
+Route::get('/dashboard', function () {
+    return view('admin.home');
+ });
