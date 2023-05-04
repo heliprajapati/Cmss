@@ -1,0 +1,9 @@
+@extends('Landing.admin')
+
+@section('content')
+<div class="card">
+    <div class="card-body">
+        <h1>Welcome Administrator</h1>
+</div>
+</div>
+@endsection
